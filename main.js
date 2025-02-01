@@ -2,8 +2,8 @@ const express = require('express');
 const helment = require('helmet');
 const morngan = require('morgan');
 const cors = require('cors');
-const PORT = 3030;
-
+dotenv.config();
+const PORT = process.env.PORT || 8080
 
 const app = express();
 
